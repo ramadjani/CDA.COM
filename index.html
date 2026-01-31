@@ -1,4 +1,29 @@
-<section id="home" class="hero">
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDA Intelligence</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <img src="cda-coin.svg" width="40">
+                <span style="font-weight: 800; letter-spacing: 1px;">CDA PROTOCOL</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#misi">Visi & Misi</a>
+                <a href="#dyor">Cara DYOR</a>
+            </div>
+        </nav>
+    </header>
+    </section>
+    <section id="home" class="hero">
     <div class="hero-content">
         <img src="cda-coin.svg" width="150" style="filter: drop-shadow(0 0 30px rgba(6,182,212,0.5));">
         <h1>Crypto Daily Alpha</h1>
@@ -17,3 +42,70 @@
         </div>
     </div>
 </section>
+
+    <section id="misi" class="visi-misi">
+        <div class="container">
+            <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 50px;">Filosofi CDA</h2>
+            <div class="grid-misi">
+                <div class="misi-card">
+                    <h3 style="color: var(--accent);">Visi Utama</h3>
+                    <p>Menciptakan ekosistem investor yang cerdas dan mandiri, di mana setiap keputusan investasi didasarkan pada data on-chain, bukan sekadar tren media sosial.</p>
+                </div>
+                <div class="misi-card">
+                    <h3 style="color: var(--accent);">Misi Edukasi</h3>
+                    <p>Menyediakan framework riset yang bisa digunakan oleh pemula sekalipun untuk mendeteksi proyek 'gem' dan menghindari 'scam'.</p>
+                </div>
+                <div class="misi-card">
+                    <h3 style="color: var(--accent);">Transparansi</h3>
+                    <p>Mendorong transparansi penuh dalam dunia kripto melalui analisis Fibonacci dan pola fraktal yang objektif.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dyor" class="dyor-section">
+        <h2 style="font-size: 2.5rem; margin-bottom: 20px;">Mastering DYOR</h2>
+        <p style="color: #94a3b8; margin-bottom: 40px;">Riset Mandiri (Do Your Own Research) adalah satu-satunya pelindung aset Anda.</p>
+
+        <div class="warning-box">
+            ⚠️ PERINGATAN: Jangan pernah membeli koin sebelum menyelesaikan 6 langkah di bawah ini. Kesalahan riset adalah tanggung jawab pribadi.
+        </div>
+
+        <div class="dyor-step" data-number="1">
+            <h3>Audit Dokumentasi (Whitepaper)</h3>
+            <p>Baca dokumen teknisnya. Apakah masalah yang mereka selesaikan masuk akal? Jika bahasanya terlalu berbunga-bunga tanpa teknis yang jelas, waspadalah.</p>
+        </div>
+
+        <div class="dyor-step" data-number="2">
+            <h3>Analisis Tokenomics</h3>
+            <p>Berapa supply-nya? Siapa pemegang terbesarnya? Gunakan alat seperti Solscan untuk melihat apakah ada wallet 'whale' yang siap melakukan dumping.</p>
+        </div>
+
+        <div class="dyor-step" data-number="3">
+            <h3>Lacak Jejak Tim</h3>
+            <p>Cek apakah tim bersifat anonim atau 'doxxed' (identitas terbuka). Tim yang memiliki reputasi di proyek sebelumnya memberikan nilai kepercayaan lebih tinggi.</p>
+        </div>
+
+        <div class="dyor-step" data-number="4">
+            <h3>Keamanan Kontrak (Smart Contract)</h3>
+            <p>Gunakan scanner seperti RugCheck atau Certik. Pastikan likuiditas sudah dikunci (Locked LP) dan fungsi 'mint' sudah dimatikan.</p>
+        </div>
+
+        <div class="dyor-step" data-number="5">
+            <h3>Aktivitas On-Chain</h3>
+            <p>Lihat transaksi harian. Apakah ada volume asli atau hanya bot yang melakukan 'wash trading' untuk memanipulasi chart?</p>
+        </div>
+
+        <div class="dyor-step" data-number="6">
+            <h3>Analisis Komunitas</h3>
+            <p>Bergabunglah di Telegram/Discord. Perhatikan apakah diskusi berisi substansi atau hanya orang-orang yang berteriak "To the Moon" tanpa dasar.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Crypto Daily Alpha (CDA). Dibangun untuk mengingat gambling Crypto</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
